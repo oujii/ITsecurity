@@ -1,0 +1,35 @@
+            }
+        },
+        "sentence_id": 0,
+        "word_id": 2
+    },
+    {
+        "word_form": "saker",
+        "lemma": "sak",
+        "ud_tags": {
+            "pos_tag": "NOUN",
+            "features": {
+                "Case": "Nom",
+                "Definite": "Ind",
+                "Gender": "Com",
+                "Number": "Plur"
+            }
+        },
+        "sentence_id": 0,
+        "word_id": 3
+    },
+    {
+        "word_form": "faktiskt",
+        "lemma": "faktisk",
+        "ud_tags": {
+            "pos_tag": "ADV",
+            "features": {
+                "Degree": "Pos"
+            }
+        },
+        "sentence_id": 0,
+        "word_id": 4
+    }
+]
+]
+}

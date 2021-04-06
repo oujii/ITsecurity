@@ -11,7 +11,6 @@ def check_cyklar():
 
     soup = bs4.BeautifulSoup(sauce, "html.parser")
 
-
     prices = soup.find_all('div', {'class': re.compile('Price__StyledPrice*')})
 
     for td in prices:
@@ -20,11 +19,3 @@ def check_cyklar():
         if hej < 1000:
             print("Nya damcyklar under 1000 kr på blocket nu:\n")
             print(hej)
-            
-
-
-    
-       
-        
-
-

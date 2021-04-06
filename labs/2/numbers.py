@@ -1,5 +1,23 @@
-x = []
+"""
 
-x.append((input("skriv nummer med space\n"))
+num_string = input().split(" ")
 
-print(x)
+nums = []
+
+for num in num_string:
+    nums.append(-int(num))
+
+print(nums)
+
+"""
+"""
+
+factor = int(input("hur många ggr?"))
+count = int(input("ge mig\n"))
+l = []
+
+for x in range(count):
+    l.append(x*2)
+
+print(l)
+"""
